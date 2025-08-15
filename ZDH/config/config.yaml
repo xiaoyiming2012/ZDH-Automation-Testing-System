@@ -1,0 +1,158 @@
+# Windows自动化测试系统配置文件
+
+# AI接口配置
+ai_interface:
+  claude_api:
+    base_url: "https://api.anthropic.com"
+    api_key: "${CLAUDE_API_KEY}"
+    model: "claude-3-opus-20240229"
+    max_tokens: 4096
+    temperature: 0.1
+  
+  request_timeout: 30
+  max_retries: 3
+
+# UI自动化配置
+ui_automation:
+  # 图像识别配置
+  image_recognition:
+    confidence_threshold: 0.8
+    template_cache_size: 100
+    screenshot_quality: 0.9
+  
+  # 坐标定位配置
+  coordinate_positioning:
+    cache_enabled: true
+    cache_expiry: 3600  # 1小时
+    fallback_enabled: true
+  
+  # OCR配置
+  ocr:
+    enabled: true
+    language: "ch_sim+en"
+    confidence_threshold: 0.7
+  
+  # 操作配置
+  operations:
+    click_delay: 0.1
+    type_delay: 0.05
+    wait_timeout: 30
+    retry_count: 3
+
+# 数据库配置
+database:
+  sqlite:
+    path: "data/test_system.db"
+    timeout: 30
+  
+  # 文件存储配置
+  file_storage:
+    base_path: "data"
+    screenshots: "screenshots"
+    logs: "logs"
+    templates: "templates"
+    reports: "reports"
+
+# 测试执行配置
+test_execution:
+  # 并行执行配置
+  parallel:
+    max_workers: 4
+    max_concurrent_tests: 2
+  
+  # 超时配置
+  timeouts:
+    test_case: 300  # 5分钟
+    test_step: 60   # 1分钟
+    system_recovery: 120  # 2分钟
+  
+  # 重试配置
+  retry:
+    max_attempts: 3
+    delay_between_attempts: 5
+
+# 安全配置
+security:
+  # 环境隔离
+  isolation:
+    sandbox_enabled: true
+    vm_snapshot_enabled: true
+    network_isolation: true
+  
+  # 权限控制
+  permissions:
+    min_privilege: true
+    admin_confirmation_required: true
+    dangerous_operations_blocked: true
+  
+  # 审计日志
+  audit:
+    enabled: true
+    log_level: "INFO"
+    retention_days: 90
+
+# 日志配置
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  handlers:
+    file:
+      enabled: true
+      max_size: "10MB"
+      backup_count: 5
+    console:
+      enabled: true
+
+# 监控配置
+monitoring:
+  # 性能监控
+  performance:
+    enabled: true
+    metrics_interval: 60  # 60秒
+  
+  # 资源监控
+  resources:
+    cpu_threshold: 80
+    memory_threshold: 80
+    disk_threshold: 90
+  
+  # 告警配置
+  alerts:
+    enabled: true
+    email_notifications: false
+    webhook_url: ""
+
+# 通信配置
+communication:
+  # PoC阶段使用HTTP
+  http:
+    host: "127.0.0.1"
+    port: 8089
+    workers: 4
+  
+  # 生产环境使用ZeroMQ
+  zmq:
+    publisher_port: 5555
+    subscriber_port: 5556
+    heartbeat_interval: 30
+
+# 贝壳库应用特定配置
+beike_ui:
+  # 界面识别策略优先级
+  recognition_priority:
+    - "image_recognition"
+    - "coordinate_positioning"
+    - "color_matching"
+    - "ocr_text"
+  
+  # 坐标缓存配置
+  coordinate_cache:
+    enabled: true
+    auto_update: true
+    validation_interval: 300  # 5分钟
+  
+  # 图像模板配置
+  image_templates:
+    base_path: "templates"
+    auto_generate: true
+    quality_threshold: 0.8

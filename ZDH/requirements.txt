@@ -1,0 +1,51 @@
+# Windows自动化测试系统 - Python依赖
+
+# Web框架 (PoC阶段)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# UI自动化
+pywinauto==0.6.8
+uiautomation==2.0.18
+opencv-python==4.8.1.78
+pillow==10.1.0
+
+# 图像处理和OCR
+easyocr==1.7.0
+numpy==1.24.3
+
+# 数据存储
+sqlite3
+sqlalchemy==2.0.23
+alembic==1.12.1
+
+# 通信 (生产环境)
+pyzmq==25.1.2
+
+# 配置管理
+pyyaml==6.0.1
+python-dotenv==1.0.0
+
+# 日志和监控
+loguru==0.7.2
+psutil==5.9.6
+
+# 测试框架
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# 开发和工具
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# 文档生成
+mkdocs==1.5.3
+mkdocs-material==9.4.8
+
+# 其他工具
+requests==2.31.0
+aiofiles==23.2.1
+python-multipart==0.0.6

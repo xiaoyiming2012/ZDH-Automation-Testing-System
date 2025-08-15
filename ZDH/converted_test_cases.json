@@ -1,0 +1,7672 @@
+[
+  {
+    "case_id": "8607",
+    "name": "【选取文字右键菜单】转换为可编辑文档",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开PDF阅读器界面\n2.打开文件选取一段文字\n3.右键点击选取文字区域，点击所有右键菜单",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击转换为可编辑文档",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "点击转换菜单调起转换器成功"
+      }
+    ]
+  },
+  {
+    "case_id": "8606",
+    "name": "【选取文字右键菜单】复制-添加书签",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开PDF阅读器界面\n2.打开文件选取一段文字\n3.右键点击选取文字区域，点击所有右键菜单",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击复制",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "复制内容成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击添加书签",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "添加书签正常，打开书签侧边栏"
+      }
+    ]
+  },
+  {
+    "case_id": "8605",
+    "name": "【选取文字右键菜单】标注右键菜单删除线并标注",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开PDF阅读器界面\n2.打开文件选取一段文字\n3.右键点击选取文字区域，点击所有右键菜单",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击删除线并标注",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "删除线并标注成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 选择标注内容，按下delete删除",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "删除正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8604",
+    "name": "【选取文字右键菜单】标注右键菜单波浪线并标注",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开PDF阅读器界面\n2.打开文件选取一段文字\n3.右键点击选取文字区域，点击所有右键菜单",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击波浪线并标注",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "波浪线并标注成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 选择标注内容，按下delete删除",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "删除正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8603",
+    "name": "【选取文字右键菜单】标注右键菜单下划线并标注",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开PDF阅读器界面\n2.打开文件选取一段文字\n3.右键点击选取文字区域，点击所有右键菜单",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击下划线并标注",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "下划线并标注成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 选择标注内容，按下delete删除",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "删除正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8602",
+    "name": "【选取文字右键菜单】标注右键菜单下划线并标注",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开PDF阅读器界面\n2.打开文件选取一段文字\n3.右键点击选取文字区域，点击所有右键菜单",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击下划线并标注",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "下划线并标注成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 选择标注内容，按下delete删除",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "删除正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8601",
+    "name": "【选取文字右键菜单】标注右键菜单高亮并标注",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开PDF阅读器界面\n2.打开文件选取一段文字\n3.右键点击选取文字区域，点击所有右键菜单",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击高亮并标注",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "高亮并标注成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 选择标注内容，按下delete删除",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "删除正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8600",
+    "name": "【选取文字右键菜单】标注右键菜单高亮并标注",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开PDF阅读器界面\n2.打开文件选取一段文字\n3.右键点击选取文字区域，点击所有右键菜单",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击高亮并标注",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "高亮并标注成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 选择标注内容，按下delete删除",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "删除正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8599",
+    "name": "【选取文字右键菜单】编辑内容",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开PDF阅读器界面\n2.打开文件选取一段文字\n3.右键点击选取文字区域，点击所有右键菜单",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击右键菜单编辑模式",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "进入编辑模式成功，调起右侧文字属性栏"
+      }
+    ]
+  },
+  {
+    "case_id": "8589",
+    "name": "【转换栏】PDF转换栏调起转为纯图",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击PDF转纯图入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起保存窗口引导填写文件名路径进行保存"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 填写名称后点击保存",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "保存成功并打开转换后的文档，文档命名以扫描件.pdf结尾"
+      }
+    ]
+  },
+  {
+    "case_id": "8588",
+    "name": "【转换栏】PDF压缩调起转换器",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击PDF压缩入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF转换器并定位打开PDF压缩界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8587",
+    "name": "【转换栏】PDF拆分调起转换器",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击PDF拆分入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF转换器并定位打开PDF拆分界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8586",
+    "name": "【转换栏】合并拆分调起转换器",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击合并拆分入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF转换器并定位打开合并拆分界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8585",
+    "name": "【转换栏】扫描件转word调起转换器",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击扫描件转word入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF转换器并定位打开扫描件转word界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8584",
+    "name": "【转换栏】转换栏调起图片转文字",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击图片转文字入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF图片转文字界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8583",
+    "name": "【转换栏】PDF转CAD调起转换器",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击PDF转CAD入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF转换器并定位打开PDF转CAD界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8582",
+    "name": "【转换栏】PPT转PDF调起转换器",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击PPT转PDF入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF转换器并定位打开PPT转PDF界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8581",
+    "name": "【转换栏】Excel转PDF调起转换器",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击Excel转PDF入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF转换器并定位打开Excel转PDF界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8580",
+    "name": "【转换栏】word转PDF调起转换器",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击word转PDF入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF转换器并定位打开word转PDF界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8579",
+    "name": "【转换栏】图片转PDF调起转换器",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击图片转PDF入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF转换器并定位打开图片转PDF界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8578",
+    "name": "【转换栏】PDF转图片调起转换器",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击PDF转图片入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF转换器并定位打开PDF转图片界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8577",
+    "name": "【转换栏】PDF转TXT调起转换器",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击PDF转TXT入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF转换器并定位打开PDF转TXT界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8576",
+    "name": "【转换栏】PDF转PPT调起转换器",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击PDF转Excel入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF转换器并定位打开PDF转Excel界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8575",
+    "name": "【转换栏】PDF转Excel调起转换器",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击PDF转Excel入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF转换器并定位打开PDF转Excel界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8574",
+    "name": "【转换栏】PDF转word调起转换器",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开PDF，进入转换栏",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击PDF转word入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开PDF转换器并定位打开PDF转word界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8557",
+    "name": "【书签】【右键菜单】设置跳转位置",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个文件\n2 打开书签侧边栏\n3 选中任一书签右键点击\n4 点击右键菜单中的重命名书签",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "1 书签跳转位置更改为当前页面"
+      }
+    ]
+  },
+  {
+    "case_id": "8556",
+    "name": "【书签】【右键菜单】重命名书签",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个文件\n2 打开书签侧边栏\n3 选中任一书签右键点击\n4 点击右键菜单中的重命名书签\n5 在输入框内输入任意内容",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "书签名被更改"
+      }
+    ]
+  },
+  {
+    "case_id": "8555",
+    "name": "【书签】【右键菜单】删除书签",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个文件\n2 打开书签侧边栏\n3 选中任一书签右键点击\n4 点击右键菜单中的删除书签",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "当前选中书签被删除"
+      }
+    ]
+  },
+  {
+    "case_id": "8554",
+    "name": "【书签】【右键菜单】插入书签",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个文件\n2 打开书签侧边栏\n3 选中任一书签右键点击\n4 点击右键菜单中的插入书签",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "在选中书签层级中插入一个新的书签"
+      }
+    ]
+  },
+  {
+    "case_id": "8553",
+    "name": "【书签】重命名书签",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个文件\n2 打开书签侧边栏\n3 双击某一书签\n4 在输入框内输入任意信息",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "书签名被更改"
+      }
+    ]
+  },
+  {
+    "case_id": "8552",
+    "name": "【书签】拖拽书签",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个文件\n2 打开书签侧边栏\n3 选中任一书签拖拽改变位置",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "书签位置、层级跟随拖拽改变"
+      }
+    ]
+  },
+  {
+    "case_id": "8551",
+    "name": "【书签】收起所有书签",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个文件\n2 打开书签侧边栏\n3 书签列表内存在多级书签层级，且任一或全部层级处于展开状态\n4 点击收起所有书签",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "当前书签列表内所有书签被收起"
+      }
+    ]
+  },
+  {
+    "case_id": "8550",
+    "name": "【书签】展开所有书签",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个文件\n2 打开书签侧边栏\n3 书签列表内存在多级书签层级，且任一或全部层级处于收起状态\n4 点击展开所有书签",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "当前所有书签多级层级被展开"
+      }
+    ]
+  },
+  {
+    "case_id": "8549",
+    "name": "【书签】删除选中书签",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个文件\n2 打开书签侧边栏\n3 选中一个书签点击删除选中书签按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "当前选中书签被删除"
+      }
+    ]
+  },
+  {
+    "case_id": "8548",
+    "name": "【书签】创建新书签",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个文件\n2 打开书签侧边栏\n3 点击创建新书签按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "1 书签列表内创建了一个新书签，新书签跳转位置为当前页面"
+      }
+    ]
+  },
+  {
+    "case_id": "8547",
+    "name": "【书签】支持读取文档书签",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个带书签文件",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "打开书签侧边栏展示文件原有书签"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击任一书签",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "页面跳转到书签记录的位置上"
+      }
+    ]
+  },
+  {
+    "case_id": "8546",
+    "name": "【书签】入口",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF、MOBI、EPUB文件",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "弹出书签侧边栏"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击左侧书签按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8545",
+    "name": "【文件菜单】解密并保存",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个加密PDF文件",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 点击打开文件下拉菜单",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "当前文件被解密并保存"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击解密并保存",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击确定",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8544",
+    "name": "【文件菜单】加密并保存",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1 打开一个PDF文件(或加密PDF文件)",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 点击打开文件下拉菜单",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "对当前文件加密并保存"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击加密并保存",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 输入密码点击确定",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8543",
+    "name": "【文件菜单】退出(ctrl+q)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 点击文件下拉菜单\n2 点击退出(ctrl+q)",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "退出阅读器"
+      }
+    ]
+  },
+  {
+    "case_id": "8542",
+    "name": "【文件菜单】反馈建议",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 点击文件下拉菜单\n2 点击反馈建议\n3 打开反馈窗口输入对应内容点击提交",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "1 展开反馈窗口\n2 建议被提交到后台"
+      }
+    ]
+  },
+  {
+    "case_id": "8541",
+    "name": "【文件菜单】默认设置",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 点击文件下拉菜单\n2 点击默认设置",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开设置窗口"
+      }
+    ]
+  },
+  {
+    "case_id": "8540",
+    "name": "【文件菜单】导出PDF为",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 点击文件下拉菜单\n2 选择导出PDF为列表中任意一项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起转换器，并且跳转到对应页签"
+      }
+    ]
+  },
+  {
+    "case_id": "8539",
+    "name": "【文件菜单】打印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件\n2 点击文件下拉菜单\n3 点击打印(ctrl+p)",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "打开高级打印窗口"
+      }
+    ]
+  },
+  {
+    "case_id": "8538",
+    "name": "【文件菜单】另存为(ctrl+shift+s)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件\n2 点击文件下拉菜单\n3 点击另存为(ctrl+shift+s)\n4 输入文件名后保存",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "1 文件被另存为\n2 新文件内容与原文件一致"
+      }
+    ]
+  },
+  {
+    "case_id": "8537",
+    "name": "【文件菜单】保存(ctrl+s)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件并做修改\n2 点击文件下拉菜单\n3 点击保存(ctrl+s)",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "文档修改被保存"
+      }
+    ]
+  },
+  {
+    "case_id": "8536",
+    "name": "【文件菜单】打开(ctrl+o)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 点击文件下拉菜单\n2 点击打开菜单项目\n3 输入路径或选择PDF、mobi、epub等类型文件\n4 点击打开(O)",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "文件在阅读器内被打开"
+      }
+    ]
+  },
+  {
+    "case_id": "8535",
+    "name": "【右键菜单】移除所有链接",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件，添加一个链接",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击链接",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "移除当前文件内所有链接"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击移除所有链接菜单",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 弹出确认框后点击确定",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8534",
+    "name": "【右键菜单】编辑链接",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件，添加一个链接",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击链接",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "进入编辑链接界面"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击编辑链接菜单",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8533",
+    "name": "【PDF链接】预览",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 添加一个跳转页面类型链接",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "预览界面会跟随页码改变"
+      },
+      {
+        "step_id": "step_1",
+        "description": "输入文本: 在指定页面输入框输入不同页码",
+        "action_type": "type",
+        "parameters": {
+          "text": "test_text",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8532",
+    "name": "【链接类型】跳转页面",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /(#0)\n前置条件: 打开一个PDF文件",
+    "tags": [
+      "功能测试",
+      "/(#0)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击选中链接按钮后，在页面上绘制一个矩形进入创建链接界面",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "生成一个链接，点击链接跳转到对应页面(若页面被删除则提示链接失效)\n*记录的是页面信息，若其他页面发生变化会自动修改页面最新页码值"
+      },
+      {
+        "step_id": "step_1",
+        "description": "输入文本: 在指定页面输入框内输入有效页面范围(若超出范围会自动修改为可用范围值)",
+        "action_type": "type",
+        "parameters": {
+          "text": "test_text",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击确定",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8531",
+    "name": "【PDF链接】功能入口",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /(#0)\n前置条件: 打开一个PDF文件",
+    "tags": [
+      "功能测试",
+      "/(#0)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 切换到编辑tab下，点击链接按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中页面文本后右键点击，点击创建链接菜单",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8530",
+    "name": "【注释列表】删除(快捷)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件\n2 展开注释侧边栏\n3 右键点击任一注释\n4 按键盘上的delete键",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "当前注释被删除"
+      }
+    ]
+  },
+  {
+    "case_id": "8529",
+    "name": "【注释列表】删除",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件\n2 展开注释侧边栏\n3 右键点击任一注释\n4 点击右键菜单上的删除",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "当前注释被删除"
+      }
+    ]
+  },
+  {
+    "case_id": "8528",
+    "name": "【注释列表】复制",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件\n2 展开注释侧边栏\n3 右键点击任一注释\n4 点击右键菜单上的复制",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "当前注释内容被复制(若形状注释则为空)"
+      }
+    ]
+  },
+  {
+    "case_id": "8527",
+    "name": "【注释列表】折叠/展开注释",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件\n2 展开注释侧边栏\n3 点击页数旁边的折叠/展开按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "该页所有注释被收起/展开"
+      }
+    ]
+  },
+  {
+    "case_id": "8526",
+    "name": "【注释列表】添加标注内容",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件\n2 展开注释侧边栏\n3 在&quot;添加标注内容框&quot;内输入内容",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "输入内容添加到当前注释标注框内"
+      }
+    ]
+  },
+  {
+    "case_id": "8525",
+    "name": "【注释列表】点击跳转",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件\n2 展开注释侧边栏\n3 点击列表内任一注释记录",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "页面跳转到该注释记录所在位置"
+      }
+    ]
+  },
+  {
+    "case_id": "8524",
+    "name": "【注释列表】仅显示有效引用/显示全部内容",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件\n2 展开侧边栏时默认仅显示有效引用(不显示形状注释)\n3 切换到显示全部内容时，则展示全部注释记录",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "1 仅显示有效引用：仅展示文本注释，不显示形状注释\n2 显示全部内容：显示全部注释记录"
+      }
+    ]
+  },
+  {
+    "case_id": "8523",
+    "name": "【注释列表】功能逻辑",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 文件内所有注释以页为单位展示在注释列表内",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8522",
+    "name": "【注释列表】功能入口",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件\n2 点击左侧注释按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "注释侧边栏被展开"
+      }
+    ]
+  },
+  {
+    "case_id": "8521",
+    "name": "【注释tab页】按钮选中逻辑",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击注释tab下所有按钮(便签除外)",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "按钮处于一个选中态，可多次进行添加注释操作"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 当按钮处于选中态时，再次点击或按esc键",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "按钮选中态被取消"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 若当前已选中文本，点击文本注释按钮(高亮、下划线、波浪线、删除线)",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "当前文本添加上对应注释，但按钮不会处于选中态"
+      }
+    ]
+  },
+  {
+    "case_id": "8520",
+    "name": "【注释右键菜单】关闭页面注释",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件后",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "当前页面内所有注释的标注框被关闭"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击任一注释",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击关闭页面注释",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8519",
+    "name": "【注释右键菜单】展开页面注释",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件后",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "当前页面内所有注释的标注框被展开"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击任一注释",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击展开页面注释",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8518",
+    "name": "【注释右键菜单】展开当前注释\\关闭当前注释",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件后",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "该注释标注框被展开\\关闭"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击任一注释",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击展开当前注释\\关闭当前注释",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8517",
+    "name": "【注释右键菜单】删除",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件后",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "选中注释被删除"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击任一注释",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击删除（D",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8516",
+    "name": "【形状注释】椭圆",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件，切换至注释tab页下",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "鼠标滑过的地方绘制出一个椭圆注释"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中椭圆按钮后，在页面内用鼠标绘制一个椭圆",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8515",
+    "name": "【形状注释】矩形",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件，切换至注释tab页下",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "鼠标滑过的地方绘制出一个矩形注释"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中矩形按钮后，在页面内用鼠标绘制一个矩形",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8514",
+    "name": "【形状注释】箭头",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件，切换至注释tab页下",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "鼠标滑过的地方绘制出一条箭头注释"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中箭头按钮后，在页面内用鼠标绘制一条直线",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8513",
+    "name": "【形状注释】直线",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件，切换至注释tab页下",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "鼠标滑过的地方绘制出一条直线注释"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中直线按钮后，在页面内用鼠标绘制一条直线",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8512",
+    "name": "【注释】便签",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开PDF文件，切换至注释tab页下\n2 选中便签按钮后，点击页面内任意位置",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "1 该位置上添加便签注释\n2 便签按钮选中态取消掉"
+      }
+    ]
+  },
+  {
+    "case_id": "8511",
+    "name": "【注释】删除线",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件，切换至注释tab页下",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "对应文本添加上删除线注释"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中文字后，点击删除线按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8510",
+    "name": "【注释】波浪线",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件，切换至注释tab页下",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "对应文本添加上波浪线注释"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中文字后，点击波浪线按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8509",
+    "name": "【注释】下划线",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件，切换至注释tab页下",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "对应文本添加上下划线注释"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中文字后，点击下划线按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8508",
+    "name": "【注释】文本高亮",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件，切换至注释tab页下",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "对应文本添加上文本高亮注释"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中文字后，点击文本高亮按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "8507",
+    "name": "【新建TAB】实用工具调起填写签名",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击【填写签名】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起PDF打开窗口"
+      },
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 输入文件路径，点击打开",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "打开PDF成功，且进入填写签名功能"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 检查进入填写签名是否正常",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "PDF文档已进入填写签名功能，且功能正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8506",
+    "name": "【新建TAB】实用工具调起图片转文字",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面，",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击实用工具【图片转文字】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起PDF中图片转文字功能"
+      }
+    ]
+  },
+  {
+    "case_id": "8505",
+    "name": "【新建TAB】实用工具调起页面编辑",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击【页面编辑】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起PDF打开窗口"
+      },
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 输入文件路径，点击打开",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "打开PDF成功，且进入页面编辑"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 检查进入页面编辑模式是否正常",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "PDF文档已进入PDF页面模式，且内容正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8504",
+    "name": "【新建TAB】实用工具调起合并PDF",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面，",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击实用工具【合并】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起PDF转换器并跳转到合并pdf界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8503",
+    "name": "【新建TAB】实用工具调起PDF转PPT",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面，",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击实用工具【PDF转PPT】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起PDF转换器并跳转到pdf转PPT界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8502",
+    "name": "【新建TAB】实用工具调起PDF转图片",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面，",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击实用工具【PDF转图片】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起PDF转换器并跳转到pdf转图片界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8501",
+    "name": "【新建TAB】实用工具调起PDF转word",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面，",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击实用工具【PDF转word】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起PDF转换器并跳转到pdf转word界面"
+      }
+    ]
+  },
+  {
+    "case_id": "8500",
+    "name": "【新建TAB】清除所有",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面，新建TAB页存在历史记录",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击【清除所有】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "清除所有的历史记录，历史记录整个栏消失"
+      }
+    ]
+  },
+  {
+    "case_id": "8499",
+    "name": "【新建TAB】打开查看更多",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击【查看更多】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "跳转到pdf开始页，如果没有打开开始页会打开开始页并进入。"
+      }
+    ]
+  },
+  {
+    "case_id": "8498",
+    "name": "【新建TAB】打开全文翻译",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击【全文翻译】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起全文翻译进程"
+      }
+    ]
+  },
+  {
+    "case_id": "8497",
+    "name": "【新建TAB】打开转换PDF",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击【转换PDF】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起PDF转换器进程"
+      }
+    ]
+  },
+  {
+    "case_id": "8496",
+    "name": "【新建TAB】打开编辑PDF",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击【编辑PDF】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起PDF打开窗口"
+      },
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 输入文件路径，点击打开",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "打开PDF成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 检查是否进入编辑模式",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "PDF文档已进入PDF模式"
+      }
+    ]
+  },
+  {
+    "case_id": "8495",
+    "name": "【新建TAB】打开从图片新建",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击【从图片新建】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起PDF打开窗口"
+      },
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 点击打开图片文件进行转换，检查此时临时TEMP保存是否正常",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "图片文件转换正常，临时TEMP目录存储正常"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击保存，检查保存是否正常，临时目录是否删除。",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "保存正常，临时目录删除正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8494",
+    "name": "【新建TAB】打开从word新建",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击【从word新建】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起PDF打开窗口"
+      },
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 点击打开word文件进行转换，检查此时临时TEMP保存是否正常",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "word文件转换正常，临时TEMP目录存储正常"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击保存，检查保存是否正常，临时目录是否删除。",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "保存正常，临时目录删除正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8493",
+    "name": "【新建TAB】打开新建空白页",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在新建TAB页点击【新建空白页】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起PDF打开窗口，并新建PDF空白页成功，文件名为未命名"
+      },
+      {
+        "step_id": "step_1",
+        "description": "截图操作: 检查此时临时TEMP保存是否正常",
+        "action_type": "screenshot",
+        "parameters": {
+          "filename": "screenshot_1"
+        },
+        "expected_result": "临时TEMP目录存储正常"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击保存，检查保存是否正常，临时目录是否删除。",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "保存正常，临时目录删除正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8492",
+    "name": "【新建TAB】打开PDF文档",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器，并进入新建TAB页面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 在新建TAB页点击【打开PDF】",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "调起PDF打开窗口"
+      },
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 输入文件路径，点击打开",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "打开PDF成功"
+      }
+    ]
+  },
+  {
+    "case_id": "8491",
+    "name": "【新建TAB】打开新建TAB页面",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开阅读器",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击新建TAB入口",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开新建TAB成功"
+      }
+    ]
+  },
+  {
+    "case_id": "8472",
+    "name": "【搜索与替换】入口名称及入口",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 未打开PDF文件",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "搜索与替换入口置灰"
+      },
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "可以点击入口【搜索与替换】"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击入口【搜索与替换】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开搜索与替换"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击toolbar上搜索输入框，输入搜索内容按回车",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "进入搜索页面"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: ctrl+f",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "打开搜索与替换"
+      }
+    ]
+  },
+  {
+    "case_id": "8471",
+    "name": "【搜索与替换】搜索区分大小写",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开一个pdf文件",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 勾选区分大小写进行搜索，如搜索全小写test",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "仅会搜索出有全小写test的内容"
+      }
+    ]
+  },
+  {
+    "case_id": "8470",
+    "name": "【搜索与替换】搜索全词匹配",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开一个pdf文件",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 验证全词匹配",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "对含英文文本匹配时，增加前后英文字母的过滤。如搜索he时，去除“字母+he”或“he+字母”此类词，中文不考虑全词匹配功能"
+      }
+    ]
+  },
+  {
+    "case_id": "8469",
+    "name": "【搜索与替换】搜索替换回退",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开一个pdf文件",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 单个替换撤回",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "单个替换可以撤回，撤回及还原时会定位到相应的item"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 多个替换撤回",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "全部替换不可以撤回，当前状态是可撤回的情况下，使用全部替换会提示保存"
+      }
+    ]
+  },
+  {
+    "case_id": "8468",
+    "name": "【搜索与替换】搜索全部替换成功",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开一个pdf文件",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 用户输入搜索关键字内容后，点击替换按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "首次点击替换，搜索到多个替换目标"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 全部替换成功后提示",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "已替换999个搜索结果，999个替换失败/已替换999个搜索结果"
+      }
+    ]
+  },
+  {
+    "case_id": "8467",
+    "name": "【搜索与替换】搜索全部替换失败",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开一个pdf文件",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 用户输入搜索关键字内容后，点击替换按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "首次点击替换，搜索到多个替换目标"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 替换全部搜索到的词，且存在多个替换失败",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "仅显示一次toast弹窗，替换成功的正常替换"
+      }
+    ]
+  },
+  {
+    "case_id": "8466",
+    "name": "【搜索与替换】搜索替换内容",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开一个pdf文件",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 用户输入搜索关键字内容后，点击替换按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "首次点击替换，搜索到替换目标"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击替换进行替换",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "替换成功后已替换的关键词置为绿色，同时自动选中下一个词"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 替换时需要对关键词匹配，匹配失败",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "匹配失败则提示“失败提示”，关键词置为红色"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 若无搜索选中的词",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "使用搜索功能，进行搜索"
+      }
+    ]
+  },
+  {
+    "case_id": "8465",
+    "name": "【搜索与替换】搜索替换内容下一个",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开一个pdf文件，该内容包含多个关键字",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 用户输入搜索关键字内容后，点击替换按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "首次点击替换，搜索到替换目标"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击替换进行替换",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "替换以后标注绿色"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击下一个",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "从选中的关键字起，向下搜索关键字。无选中关键字则从文本开始搜索输入框关键字"
+      }
+    ]
+  },
+  {
+    "case_id": "8464",
+    "name": "【搜索与替换】搜索替换内容上一个",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开一个pdf文件，该内容包含多个关键字",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 用户输入搜索关键字内容后，点击替换按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "首次点击替换，搜索到替换目标"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击替换进行替换",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "替换以后标注绿色"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击上一个",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "从选中的关键字起，向上搜索关键字。无选中关键字则从文本开始搜索输入框关键字"
+      }
+    ]
+  },
+  {
+    "case_id": "8463",
+    "name": "【搜索与替换】搜索需替换内容",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开一个pdf文件",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 用户输入搜索内容后，点击替换按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "首次点击替换，搜索到替换目标"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 检查被搜索的内容文案",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "搜索结果颜色标注黄色"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击替换进行替换",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "替换以后标注绿色"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 替换失败",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "标注红色"
+      }
+    ]
+  },
+  {
+    "case_id": "8462",
+    "name": "【搜索与替换】替换功能验证",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开一个pdf文件",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 用户输入搜索内容后，点击替换按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "首次点击替换，搜索到替换目标"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 再次点击替换",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "将替换内容替换搜索内容，同时进入编辑模式"
+      }
+    ]
+  },
+  {
+    "case_id": "8461",
+    "name": "【搜索与替换】入口名称及入口",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 未打开PDF文件",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "搜索与替换入口置灰"
+      },
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "可以点击入口【搜索与替换】"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击入口【搜索与替换】",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打开搜索与替换"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: ctrl+f",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "打开搜索与替换"
+      }
+    ]
+  },
+  {
+    "case_id": "8459",
+    "name": "【打印】页码选择打印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开打印界面，并连接虚拟打印机",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "输入文本: 在页码选择输入框输入【1-2】",
+        "action_type": "type",
+        "parameters": {
+          "text": "test_text",
+          "timeout": 10
+        },
+        "expected_result": "输入成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击开始打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "弹出将打印输出另存为"
+      },
+      {
+        "step_id": "step_1",
+        "description": "输入文本: 输入文件名进行保存",
+        "action_type": "type",
+        "parameters": {
+          "text": "test_text",
+          "timeout": 10
+        },
+        "expected_result": "保存成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 查看打印页数是否符合预期",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "打印页数符合预期"
+      }
+    ]
+  },
+  {
+    "case_id": "8458",
+    "name": "【打印】按份打印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 已打开打印界面，并连接虚拟打印机",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "输入文本: 在份数打印输入框输入【2】",
+        "action_type": "type",
+        "parameters": {
+          "text": "test_text",
+          "timeout": 10
+        },
+        "expected_result": "输入成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击开始打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "弹出将打印输出另存为"
+      },
+      {
+        "step_id": "step_1",
+        "description": "输入文本: 输入文件名进行保存",
+        "action_type": "type",
+        "parameters": {
+          "text": "test_text",
+          "timeout": 10
+        },
+        "expected_result": "保存成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 查看打印页数是否符合预期",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "打印页数符合预期"
+      }
+    ]
+  },
+  {
+    "case_id": "8455",
+    "name": "【PDF复制粘贴】跨文档复制粘贴",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 进入PDF，且点击【适合宽度】，点击【显示首页】",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 选择内容进行复制",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "复制成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 新建pdf空白页进行内容粘贴",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "粘贴成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 对比同原文档是否一致",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "两次内容一致"
+      }
+    ]
+  },
+  {
+    "case_id": "8454",
+    "name": "【PDF复制粘贴】同文档复制粘贴",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 进入PDF，且点击【适合宽度】，点击【显示首页】",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 选择内容进行复制",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "复制成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 内容进行粘贴",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "粘贴成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 对比两次内容是否一致",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "两次内容一致"
+      }
+    ]
+  },
+  {
+    "case_id": "8453",
+    "name": "【PDF复制粘贴】注释复制内容对比",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 进入PDF，且点击【适合宽度】，点击【显示首页】，打开注释列表",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 选择内容进行注释",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "注释成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 右键注释文案进行复制",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "复制成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 进入注释栏右键文案进行复制",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "复制成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 对比两次复制内容是否一致",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "两次复制内容一致"
+      }
+    ]
+  },
+  {
+    "case_id": "8452",
+    "name": "【PDF复制粘贴】进出编辑模式复制内容对比",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 进入PDF，且点击【适合宽度】，点击【显示首页】",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击进入阅读模式",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "进入阅读模式成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 阅读模式下划取文案进行复制",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "复制成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 进入编辑模式",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "进入编辑模式成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 编辑模式下划取文案进行复制",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "复制成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 对比两次复制内容是否一致",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "两次复制内容一致"
+      }
+    ]
+  },
+  {
+    "case_id": "8451",
+    "name": "【PDF复制粘贴】编辑模式复制多次粘贴",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 进入PDF，且点击【适合宽度】，点击【显示首页】",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击进入阅读模式",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "进入阅读模式成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 阅读模式下划取文案进行复制",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "复制成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 第一次粘贴",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "粘贴成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 第二次粘贴",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "粘贴成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 对比两次粘贴内容是否一致",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "两次粘贴内容一致"
+      }
+    ]
+  },
+  {
+    "case_id": "8450",
+    "name": "【PDF复制粘贴】编辑模式复制对比剪切板",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 进入PDF，且点击【适合宽度】，点击【显示首页】",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击进入编辑模式",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "进入编辑模式成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 编辑模式下划取文案进行复制",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "复制成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 解析原文档与复制内容进行对比",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "复制内容同原文档内容一致"
+      }
+    ]
+  },
+  {
+    "case_id": "8449",
+    "name": "【PDF复制粘贴】阅读模式复制对比剪切板",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 进入PDF，且点击【适合宽度】，点击【显示首页】",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击进入阅读模式",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "进入阅读模式成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 阅读模式下划取文案进行复制",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "复制成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 右键菜单进行复制",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "复制成功"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 对比两次复制内容是否一致",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "两次复制内容一致"
+      }
+    ]
+  },
+  {
+    "case_id": "8448",
+    "name": "【windows pdf右键菜单】右键PDF加密",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击pdf_right.pdf，点击PDF合并/拆分/压缩，点击PDF加密",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开pdfconverter.exe功能正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8447",
+    "name": "【windows pdf右键菜单】右键PDF压缩",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击pdf_right.pdf，点击PDF合并/拆分/压缩，点击PDF压缩",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开pdfconverter.exe功能正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8446",
+    "name": "【windows pdf右键菜单】右键PDF拆分",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击pdf_right.pdf，点击PDF合并/拆分/压缩，点击PDF拆分",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开pdfconverter.exe功能正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8445",
+    "name": "【windows pdf右键菜单】右键PDF合并",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击pdf_right.pdf，点击PDF合并/拆分/压缩，点击PDF合并",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开pdfconverter.exe功能正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8444",
+    "name": "【windows pdf右键菜单】右键将PDF转换为图片",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击pdf_right.pdf，点击将PDF转换为其他格式，点击转换为图片",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开pdfconverter.exe功能正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8443",
+    "name": "【windows pdf右键菜单】右键将PDF转换为CAD",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击pdf_right.pdf，点击将PDF转换为其他格式，点击转换为CAD",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开pdfconverter.exe功能正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8442",
+    "name": "【windows pdf右键菜单】右键将PDF转换为PPT",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击pdf_right.pdf，点击将PDF转换为其他格式，点击转换为PPT",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开pdfconverter.exe功能正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8441",
+    "name": "【windows pdf右键菜单】右键将PDF转换为Excel",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击pdf_right.pdf，点击将PDF转换为其他格式，点击转换为Excel",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开pdfconverter.exe功能正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8440",
+    "name": "【windows pdf右键菜单】右键将PDF转换为Excel",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击pdf_right.pdf，点击将PDF转换为其他格式，点击转换为Excel",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开pdfconverter.exe功能正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8439",
+    "name": "【windows pdf右键菜单】右键pdf编辑pdf",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击pdf_right.pdf，点击编辑pdf",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开fastpdf.exe且调起编辑正常且打开编辑属性栏正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8438",
+    "name": "【windows pdf右键菜单】右键pdf打印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击pdf_right.pdf，点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开fastpdf.exe且调起打印正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8437",
+    "name": "【windows pdf右键菜单】右键pic转换为pdf",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击pic_right.jpg，点击转换为PDF",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开pdfconverter.exe进行pic转换pdf且转换正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8436",
+    "name": "【windows pdf右键菜单】右键word转换为pdf",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击word_right.docx，点击转换为PDF",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开pdfconverter.exe进行word转换pdf且转换正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8435",
+    "name": "【windows pdf右键菜单】右键xlsx转换为pdf",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击xlsx_right.xlsx，点击转换为PDF",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开pdfconverter.exe进行pic转换pdf且转换正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8434",
+    "name": "【windows pdf右键菜单】右键pic创建pdf",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击pic_right.jpg，点击创建PDF",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开fastpdf.exe进行pic转换pdf且转换内容正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8433",
+    "name": "【windows pdf右键菜单】右键word创建pdf",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击word_right.docx，点击创建PDF",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开fastpdf.exe进行word转换pdf且转换内容正常"
+      }
+    ]
+  },
+  {
+    "case_id": "8432",
+    "name": "【windows pdf右键菜单】右键xlsx创建pdf",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 重启explorer创建环境，打开right_click_menu文件夹",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击xlsx_right.xlsx，点击创建PDF",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打开fastpdf.exe进行xlsx转换pdf且转换内容正常"
+      }
+    ]
+  },
+  {
+    "case_id": "6047",
+    "name": "【批量打印】批量打印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件，进入打印界面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击批量打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "将左侧打印列表内所有打印一次性打印出来"
+      }
+    ]
+  },
+  {
+    "case_id": "6046",
+    "name": "【批量打印】添加文件",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件，进入打印界面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击添加文件按钮，输入有效文件路径（支持多个）",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "文件被添加到打印列表内"
+      }
+    ]
+  },
+  {
+    "case_id": "6040",
+    "name": "【打印】双面打印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件，进入打印界面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 勾选双面打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "纸张双面均有打印内容"
+      }
+    ]
+  },
+  {
+    "case_id": "6039",
+    "name": "【发票打印】",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开一个PDF文件，进入打印界面\n2.在打印方式选择发票打印",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "会将左侧打印列表中所有文件当前一个大文件打印出来，每张纸可打印两个页面中间有虚线隔开（页面范围会自动跳转到所有页面上）"
+      }
+    ]
+  },
+  {
+    "case_id": "6038",
+    "name": "【小册子】右边装订",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开一个PDF文件，进入打印界面\n2.在打印方式中选择小册子",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "小册子打印：一张纸包含四个页面，将打印出来的纸张从中间对折后与书本一张。首页正面比较特殊，需要包含一个空白页做尾页"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击选中右边装订项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "首页正面中尾页在右边，首页在左边"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "6037",
+    "name": "【小册子】左边装订",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开一个PDF文件，进入打印界面\n2.在打印方式中选择小册子",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "小册子打印：一张纸包含四个页面，将打印出来的纸张从中间对折后与书本一张。首页正面比较特殊，需要包含一个空白页做尾页"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击选中左边装订项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "首页正面中尾页在左边，首页在右边"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "6036",
+    "name": "【小册子】小册子子集",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开一个PDF文件，进入打印界面\n2.在打印方式中选择小册子",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "小册子打印：一张纸包含四个页面，将打印出来的纸张从中间对折后与书本一张。首页正面比较特殊，需要包含一个空白页做尾页"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击小测子子集下拉菜单，选择双面、正面、反面任一项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "双面：打印所有页面"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "正面：仅打印双面中正面的内容"
+      }
+    ]
+  },
+  {
+    "case_id": "6034",
+    "name": "【一张多页】页面顺序",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开一个PDF文件，进入打印界面\n2.在打印方式中选择一张多页",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击选中页面顺序四个选项中任一项(横向、横向反序、纵向、纵向反序)",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打印出文件的页面顺序根据选项排序"
+      }
+    ]
+  },
+  {
+    "case_id": "6033",
+    "name": "【一张多页】每张页数",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 1.打开一个PDF文件，进入打印界面\n2.在打印方式中选择一张多页",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击每张页数下拉菜单，选择菜单中任意值或自定义输入",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打印出来的纸张中根据选项一张纸包含多个文件页面(按顺序)"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "6028",
+    "name": "【打印】逆序打印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件，进入打印界面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 勾选逆序打印勾选框",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "将当前文件按逆序打印出来"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "6027",
+    "name": "【奇偶页码】偶数页",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件，进入打印界面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "若页面范围选择为当前页面或当前视图，则不计算奇偶页"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 在奇偶页码下拉菜单中选择偶数页",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "打印出来的文件为页面范围中的偶数页"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "6026",
+    "name": "【奇偶页码】奇数页",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件，进入打印界面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "若页面范围选择为当前页面或当前视图，则不计算奇偶页"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 在奇偶页码下拉菜单中选择奇数页",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "打印出来的文件为页面范围中的奇数页"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "6025",
+    "name": "【奇偶页码】范围中所有页面",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件，进入打印界面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 在奇偶页码下拉菜单中选择范围中所有页面",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "打印出来的文件为页面范围中的所有页面"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "6024",
+    "name": "【页面范围】页码选择",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件，进入打印界面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在页面范围选项里点击页码选择勾选项，在输入内输入有效页码范围",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打印出来的文件的页面与输入的页码一直"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "6023",
+    "name": "【页面范围】当前视图",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件，进入打印界面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在页面范围选项里点击当前视图勾选项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打印出来的文件为当前预览视图"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "6022",
+    "name": "【页面范围】所有页面",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件，进入打印界面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在页面范围选项里点击所有页面勾选项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打印出来的文件为当前文档所有页面"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "6021",
+    "name": "【页面范围】当前页面",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件，进入打印界面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在页面范围选项里点击当前页面勾选项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "打印出来的文件仅为当前预览页"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "6017",
+    "name": "【打印】打印机选择",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件，进入打印界面",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印机下拉框选择任一打印机（读取本地打印机设置）",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "所打印的文件从该打印机输出"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击打印",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4815",
+    "name": "【阅读tab页】OCR识别",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 同开始tab页",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4814",
+    "name": "【阅读tab页】幻灯片",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 同开始tab页",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4813",
+    "name": "【阅读tab页】背景",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 同开始tab页",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4812",
+    "name": "【阅读tab页】连续阅读",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 取消或选中连续阅读按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "1 取消连续阅读模式则滚动时页与页之间不连续\n2 反之选中连续阅读模式则页与页之间连续"
+      }
+    ]
+  },
+  {
+    "case_id": "4811",
+    "name": "【阅读tab页】双页",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 点击双页按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "页面展示为双页"
+      }
+    ]
+  },
+  {
+    "case_id": "4810",
+    "name": "【阅读tab页】单页",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 点击单页按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "页面展示为单页"
+      }
+    ]
+  },
+  {
+    "case_id": "4809",
+    "name": "【阅读tab页】页数输入",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 在页数框内输入任意有效页数，按enter键",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "页面跳转至对应页"
+      }
+    ]
+  },
+  {
+    "case_id": "4808",
+    "name": "【阅读tab页】下一页",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 点击下一页按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "页面跳转至下一页"
+      }
+    ]
+  },
+  {
+    "case_id": "4807",
+    "name": "【阅读tab页】上一页",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 点击上一页按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "页面跳转至上一页"
+      }
+    ]
+  },
+  {
+    "case_id": "4806",
+    "name": "【阅读tab页】旋转文档",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 点击旋转文档按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "整个文档所有页面被顺时针旋转90°"
+      }
+    ]
+  },
+  {
+    "case_id": "4805",
+    "name": "【阅读tab页】逆时针旋转90°",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 点击逆时针旋转90°按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "当前页被逆时针旋转90°"
+      }
+    ]
+  },
+  {
+    "case_id": "4804",
+    "name": "【阅读tab页】顺时针旋转90°",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 点击顺时针旋转90°按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "当前页被顺时针旋转90°"
+      }
+    ]
+  },
+  {
+    "case_id": "4803",
+    "name": "【阅读tab页】适合宽度",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 点击适合宽度按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "页面展示比例调整为适合宽度"
+      }
+    ]
+  },
+  {
+    "case_id": "4802",
+    "name": "【阅读tab页】适合页面",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 点击适合页面按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "页面展示比例调整为适合页面"
+      }
+    ]
+  },
+  {
+    "case_id": "4801",
+    "name": "【阅读tab页】实际大小",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 点击实际大小按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "页面展示比例调整为实际大小值"
+      }
+    ]
+  },
+  {
+    "case_id": "4800",
+    "name": "【阅读tab页】页面展示比例设置",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 点击页面比例“-”、“+”按钮或点击比例下拉菜单，选择菜单中任意一项",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "页面展示比例被改变"
+      }
+    ]
+  },
+  {
+    "case_id": "4799",
+    "name": "【阅读tab页】全屏模式",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 点击全屏模式按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "进入全屏模式"
+      }
+    ]
+  },
+  {
+    "case_id": "4798",
+    "name": "【阅读tab页】编辑模式",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 点击编辑模式按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "tab页切换至编辑，进入编辑模式"
+      }
+    ]
+  },
+  {
+    "case_id": "4797",
+    "name": "【阅读tab页】阅读模式",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开文件后切换到阅读tab页下\n2 点击阅读模式按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "进入阅读模式，收起上方工具栏"
+      }
+    ]
+  },
+  {
+    "case_id": "4796",
+    "name": "【开始tab页】页面编辑",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "tab页跳转到页面，进入页面编辑模式"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击开始tab页下页面编辑按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4795",
+    "name": "【开始tab页】水印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "水印下拉菜单被展开，可快捷进行水印编辑操作"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击开始tab页下水印下拉菜单",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4794",
+    "name": "【开始tab页】插入图片",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "图片被添加到页面上"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击开始tab页下插入图片按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 输入有效图片文件路径点击确定",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4793",
+    "name": "【开始tab页】搜索文字",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个文件后，点击搜索文字按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "展开搜索侧边栏"
+      }
+    ]
+  },
+  {
+    "case_id": "4792",
+    "name": "【开始tab页】OCR识别",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个文件后，点击OCR识别按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "调起ocr识别界面，并将当前页面添加到识别框中"
+      }
+    ]
+  },
+  {
+    "case_id": "4791",
+    "name": "【开始tab页】幻灯片",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个文件后，点击幻灯片按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "进入幻灯片模式"
+      }
+    ]
+  },
+  {
+    "case_id": "4790",
+    "name": "【开始tab页】背景",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个文件后，点击背景下拉菜单\n2 选中任意背景色",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "文档的阅读背景被更换成选中的背景色"
+      }
+    ]
+  },
+  {
+    "case_id": "4789",
+    "name": "【开始tab页】编辑",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个文件后，点击编辑模式按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "tab页跳转至编辑，进入编辑模式"
+      }
+    ]
+  },
+  {
+    "case_id": "4788",
+    "name": "【开始tab页】打印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个文件后，点击打印按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "调起打印界面"
+      }
+    ]
+  },
+  {
+    "case_id": "4787",
+    "name": "【开始tab页】打开",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 点击打开按钮\n2 输入有效文件路径确定",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "文件在阅读器内打开"
+      }
+    ]
+  },
+  {
+    "case_id": "4786",
+    "name": "【悬浮工具框】",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入编辑模式\n2 当选中文本后，在鼠标最后停留位置的右上方出现悬浮工具框(若鼠标移动超过一定像素悬浮框会自动消失)\n3 可对文本进行字体、字号、加粗、倾斜、格式刷等操作",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "功能与上述一致"
+      }
+    ]
+  },
+  {
+    "case_id": "4764",
+    "name": "【智能识别模式】行优先",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入编辑模式\n2 点击选中右侧属性栏里的行优先按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "每行文本都会被识别成一个文本框"
+      }
+    ]
+  },
+  {
+    "case_id": "4763",
+    "name": "【智能识别模式】段落模式",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入编辑模式\n2 点击选中右侧属性栏里的段落模式按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "文本以段落形式被识别形成文本框"
+      }
+    ]
+  },
+  {
+    "case_id": "4762",
+    "name": "【编辑内容】文本框删除",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入编辑模式\n2 按住ctrl+鼠标左键选中文本框(支持多选)\n3 按下键盘delete键",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "文本框被删除"
+      }
+    ]
+  },
+  {
+    "case_id": "4761",
+    "name": "【编辑内容】文本框复制粘贴",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入编辑模式\n2 按住ctrl+鼠标左键选中文本框(支持多选)\n3 使用快捷键ctrl+c复制到文本框后鼠标点击页面内任意位置，再使用快捷键ctrl+v",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "文本框被复制粘贴到页面上(支持跨文档)"
+      }
+    ]
+  },
+  {
+    "case_id": "4757",
+    "name": "【编辑内容】文本复制",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入编辑模式\n2 选中文本框内任意文本\n3 按下快捷键ctrl+c",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "当前选中文本被复制到粘贴板内"
+      }
+    ]
+  },
+  {
+    "case_id": "4756",
+    "name": "【编辑内容】文本编辑",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "(若在原有文本后输入，新添加的文字会自动获取前面文本的字体属性)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "截图操作: 1 进入编辑模式\n2 对文本框内的文本进行增删改操作并保存",
+        "action_type": "screenshot",
+        "parameters": {
+          "filename": "screenshot_1"
+        },
+        "expected_result": "相应的文本内容发生更改"
+      }
+    ]
+  },
+  {
+    "case_id": "4755",
+    "name": "【编辑内容】功能描述",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 1 进入编辑模式\n2 可以对页面内识别到的文本内容、矢量等进行编辑",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4754",
+    "name": "【编辑内容】功能入口",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件\n2 切换至编辑tab",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "工具tab切换到编辑，并进入编辑模式"
+      }
+    ]
+  },
+  {
+    "case_id": "4753",
+    "name": "【编辑】复制粘贴图片(快捷)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "*若第三步时鼠标不点击其他位置支持粘贴，在会粘贴在当前图片右下方距离(10px)的地方上"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "图片被粘贴到该文件的其他位置上"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 使用快捷键复制到一张图片后，切换页面使用粘贴快捷键",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "图片被粘贴到PDF文件内，位置为鼠标箭头所在的位置"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 在阅读器外部复制一张图片",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "图片被粘贴到另一个文件内"
+      },
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开阅读器打开一个PDF文件，点击页面按粘贴快捷键(Ctrl+V)",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "图片被粘贴进外部程序中"
+      },
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开两个PDF文件",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 在其中一个PDF文件夹内使用快捷键(Ctrl+C)复制一张图片",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 在另外一个文件中使用快捷键粘贴(Ctrl+V)",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件并复制到一张图片",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 使用粘贴快捷键粘贴到外部程序中(暂不支持粘贴成电脑文件)",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4752",
+    "name": "【编辑】删除图片(快捷)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件后，选中页面内任一图片",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "选中图片被删除"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击键盘上delete键",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4751",
+    "name": "【编辑】改变图片大小",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件后，选中页面内任一图片",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "图片大小随边框发生更改"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 通过拖拽改变图片边框大小",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4750",
+    "name": "【编辑】旋转图片",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件后，选中页面内任一图片",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "图片被旋转"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 按住图片边框上方的旋转按钮，旋转任意角度后松开",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4749",
+    "name": "【编辑】拖拽图片",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件后，选中页面内任一图片",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "图片被拖拽至松开鼠标左键的地方(不支持跨页面)"
+      },
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 按住鼠标左键，然后移动鼠标到其他位置上，松开鼠标左键",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4748",
+    "name": "【悬浮菜单】裁剪图片",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件后，选中页面内任一图片",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "图片被裁剪成裁剪框大小"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击悬浮菜单上的“裁剪图片”",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 出现裁剪框后，改变裁剪框大小，点击√",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4747",
+    "name": "其他入口",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 文件菜单会根据当前文件是否加密的情况，分别展示加密并保存/解密并保存菜单\n2 点击对应菜单",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起对应加密或解密解密"
+      }
+    ]
+  },
+  {
+    "case_id": "4746",
+    "name": "功能逻辑",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "截图操作: 1 在加解密过程中，采取的逻辑是先加解密后保存\n2 若当前文件被占用，虽然提示保存失败，但实际上已对文件进行加解密处于，后续如果文件再触发保存操作时，加解密操作仍然生效",
+        "action_type": "screenshot",
+        "parameters": {
+          "filename": "screenshot_1"
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4745",
+    "name": "文档被占用中",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 若在加解密过程中(覆盖原文件)，文件处于被占用的状态",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "弹出提示框告知文件被占用中，另存为或先关闭占用程序"
+      }
+    ]
+  },
+  {
+    "case_id": "4744",
+    "name": "【文件解密】文件解密(不覆盖原文件)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个加密PDF文件，切换到保护tab下\n2 点击解除密码\n3 弹出文档解密提示框后取消点解密后覆盖原文件勾选后点击确定\n4 在另存为界面输入文件后点击保存",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "新文件被加密并保存，原文件不受影响"
+      }
+    ]
+  },
+  {
+    "case_id": "4743",
+    "name": "【文件解密】文件解密(覆盖原文件)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个加密PDF文件，切换到保护tab下\n2 点击解除密码\n3 弹出文档解密提示框后点击确定",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "文件被解密并保存"
+      }
+    ]
+  },
+  {
+    "case_id": "4742",
+    "name": "【文件加密】文件加密(不覆盖原文件)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件，切换到保护tab下\n2 点击文档加密按钮\n3 在文档加密界面取消加密后覆盖原文件勾选\n4 输入密码后点击确定\n5 在另存为界面输入文件名后点击保存",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "新文件被加密并保存，原文件不受影响"
+      }
+    ]
+  },
+  {
+    "case_id": "4741",
+    "name": "【文件加密】文件加密(覆盖原文件)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件，切换到保护tab下\n2 点击文档加密按钮\n3 在文档加密界面输入密码后点击确定",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "文件被加密并已保存"
+      }
+    ]
+  },
+  {
+    "case_id": "4739",
+    "name": "【页面编辑】插入图片文件",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 打开一个PDF文件",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 切换到页面tab页，点击插入页面下拉菜单",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "图片以页面形式添加到PDF文件中"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击插入图片文件菜单",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 输入图片路径，点击确定",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4738",
+    "name": "【页面大小】应用范围-自定义",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4737",
+    "name": "【页面大小】应用范围-当前选中页",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4736",
+    "name": "【页面大小】应用范围-所有页面",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4735",
+    "name": "【页面大小】调整尺寸-自定义",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4734",
+    "name": "【页面大小】调整尺寸-标准尺寸",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4733",
+    "name": "【页面大小】预览界面",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4732",
+    "name": "【页面大小】功能入口2",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开PDF文件\n2 切换至页面tab下\n3 点击页面大小按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "打开页面大小编辑界面"
+      }
+    ]
+  },
+  {
+    "case_id": "4731",
+    "name": "【页面大小】功能入口1",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开PDF文件\n2 切换至编辑tab下\n3 点击页面大小按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "打开页面大小编辑界面"
+      }
+    ]
+  },
+  {
+    "case_id": "4730",
+    "name": "【页面大小】功能描述",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4729",
+    "name": "【擦除】功能入口3",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件\n2 从空白处开始使用鼠标绘制一个虚线框\n3 点击悬浮菜单中的擦除选区",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "1、无颜色擦除，对于文字和注释，直接删除，该方式不添加色块，对于图片，若相交，则使用白色填充图片，对于矢量图形则使用白色色块遮盖。\n2、有颜色擦除，对于文字和注释，直接删除并添加色块，对于图片，若相交，则使用该颜色填充图片并添加色块，对于矢量图形则使用该颜色的色块遮盖。"
+      }
+    ]
+  },
+  {
+    "case_id": "4728",
+    "name": "【擦除】功能入口2",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件\n2 选中页面内容上任意文字\n3 点击悬浮菜单中的擦除",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "1 功能同上\n2 工具栏tab页切换至编辑，并选中擦除按钮"
+      }
+    ]
+  },
+  {
+    "case_id": "4727",
+    "name": "【擦除】功能入口1",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开一个PDF文件\n2 切换到编辑页签下选中擦除按钮\n3 使用鼠标在页面上绘制任意图形框",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "1、无颜色擦除，对于文字和注释，直接删除，该方式不添加色块，对于图片，若相交，则使用白色填充图片，对于矢量图形则使用白色色块遮盖。\n2、有颜色擦除，对于文字和注释，直接删除并添加色块，对于图片，若相交，则使用该颜色填充图片并添加色块，对于矢量图形则使用该颜色的色块遮盖。"
+      }
+    ]
+  },
+  {
+    "case_id": "4726",
+    "name": "【擦除】功能描述",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 选中编辑页签下擦除按钮\n2 在页面内容区域上绘制任意大小图形框",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "1、无颜色擦除，对于文字和注释，直接删除，该方式不添加色块，对于图片，若相交，则使用白色填充图片，对于矢量图形则使用白色色块遮盖。\n2、有颜色擦除，对于文字和注释，直接删除并添加色块，对于图片，若相交，则使用该颜色填充图片并添加色块，对于矢量图形则使用该颜色的色块遮盖。"
+      }
+    ]
+  },
+  {
+    "case_id": "4725",
+    "name": "【页面编辑】其他功能入口2",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件，在阅读模式下，展开缩略图侧边栏",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "功能逻辑同上"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击选定任一页面拖拽(页面拖拽)",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 右键点击缩略图调起右键菜单，菜单项：插入空白页面、插入文件、删除页面、提取页面、放大、缩小",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4724",
+    "name": "【页面编辑】其他功能入口1",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件后",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "功能逻辑同上"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在阅读模式下，右键点击调起菜单项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击菜单项中的插入页面、删除页面",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4723",
+    "name": "【页面编辑】右键菜单",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在任意页面上右键点击会调起右键菜单（复制、粘贴、插入空白页、插入文件、删除页面、提取页面、放大、缩小、打印）",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "功能逻辑同上"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击任一菜单",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4722",
+    "name": "【页面编辑】悬浮菜单",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 鼠标悬浮到页面上出现悬浮菜单(顺时针旋转90°、逆时针旋转90°、删除页面、插入空白页、插入文件)",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "功能逻辑同上"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击任一菜单",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4721",
+    "name": "【页面编辑】打印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中任意页面后，在任一选中页面上右键点击，调起右键菜单",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起打印界面并将当前文件添加到打印列表内"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击右键菜单中打印项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4720",
+    "name": "【页面编辑】缩小",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中任意页面后，在任一选中页面上右键点击，调起右键菜单",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "页面界面缩略图被缩小"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击右键菜单中缩小项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4719",
+    "name": "【页面编辑】放大",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中任意页面后，在任一选中页面上右键点击，调起右键菜单",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "页面界面缩略图被放大"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击右键菜单中放大项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4718",
+    "name": "【页面编辑】复制、粘贴页面",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中任意页面后，在任一选中页面上右键点击，调起右键菜单",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "完成页面复制，并粘贴到对应位置上"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击右键菜单中复制项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在任意页面或页面间的空白处右键点击调起菜单项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击右键菜单中粘贴项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4716",
+    "name": "【页面编辑】旋转文档",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击工具栏上旋转文档按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "所有页面被顺时针旋转90°"
+      }
+    ]
+  },
+  {
+    "case_id": "4715",
+    "name": "【页面编辑】顺时针旋转90°",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中任意页面后，点击工具栏上顺时针按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "选中页面被顺时针旋转90°"
+      }
+    ]
+  },
+  {
+    "case_id": "4714",
+    "name": "【页面编辑】逆时针旋转90°",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中任意页面后，点击工具栏上逆时针按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "选中页面被逆时针旋转90°"
+      }
+    ]
+  },
+  {
+    "case_id": "4712",
+    "name": "【页面编辑】选中页面展示",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中任意页面",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "工具栏上页面筛选框会根据一定规则展示出来"
+      }
+    ]
+  },
+  {
+    "case_id": "4711",
+    "name": "【页面编辑】删除页面",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在页面编辑界面内选中任意页面",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "所选中页面被删除掉(仅剩一个页面时，删除页面按钮被屏蔽)"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击工具栏上删除页面按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4710",
+    "name": "【页面编辑】插入文件",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击插入页面下拉菜单中的插入文件项",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "在当前选中的页面后面添加该PDF文件"
+      },
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 输入任意有效PDF文件路径，点击打开(O)",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4709",
+    "name": "【页面编辑】插入空白页",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击工具栏上插入空白页按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "在当前选中的页面后面添加一个全新的空白页面(若选中多个页面则为首个)"
+      }
+    ]
+  },
+  {
+    "case_id": "4708",
+    "name": "【页面编辑】提取页面",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 在页面编辑界面内选中任意页面",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "所选中页面提取成一个PDF文件并打开"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击工具栏上提取页面按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 输入文件名后点击保存",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4707",
+    "name": "【页面编辑】进入页面编辑模式",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开PDF文件\n2 切换至页面tab页",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "进入页面编辑界面"
+      }
+    ]
+  },
+  {
+    "case_id": "4706",
+    "name": "【页码】删除页码",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开PDF文件后\n2 点击删除页码按钮，弹出提示窗提示用户是否删除\n3 点击删除",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "页面上由该阅读器添加的页码均被删除"
+      }
+    ]
+  },
+  {
+    "case_id": "4705",
+    "name": "【页码】更新页码",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开PDF文件后\n2 点击插入页码按钮弹出更新弹窗(窗口基本功能同插入页码)\n3 设置任意条件后点击更新页码按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "除本次更新的页码，其余位置上所有由该阅读器添加的页码都会被清除"
+      }
+    ]
+  },
+  {
+    "case_id": "4704",
+    "name": "【页码】【插入页码】功能逻辑",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 若当前插入位置已有使用我们阅读器插入的页码",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "会将原来的页码覆盖掉"
+      }
+    ]
+  },
+  {
+    "case_id": "4703",
+    "name": "【页码】【插入页码】预览窗口",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4702",
+    "name": "【页码】【插入页码】应用范围",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4699",
+    "name": "【页码】【插入页码】页码样式",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: .、第1/X页、1/X、第1页、第1页，共X页等五种页码样式\n3 选择任一样式后插入页码",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4698",
+    "name": "【页码】【插入页码】页码位置",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4697",
+    "name": "【页码】插入页码",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开PDF文件后\n2 点击插入页码按钮弹出插入页码弹窗\n3 设置任意条件后点击插入页码按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "页码插入到文件页面对应的位置中"
+      }
+    ]
+  },
+  {
+    "case_id": "4696",
+    "name": "【页码】功能入口",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 1 打开PDF文件\n2 切换至编辑页签下\n3 点击插入页码按钮或页码下拉菜单",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4695",
+    "name": "【悬浮菜单】提取图片文字",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件后，选中页面内任一图片",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "调起OCR识别窗口并将当前图片添加进去"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击悬浮菜单中的提取图片文字",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4694",
+    "name": "【悬浮菜单】提取图片",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件，选中页面内任一图片",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "当前选中图片被保存到该路径下"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击悬浮菜单中的提取图片",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 输入有效路径点击保存",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4693",
+    "name": "【图片右键菜单】置于底层",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 选中一张图片后，右键点击该图片\n2 出现右键菜单后点击置于底层",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "当前图片被置于当前页面底层"
+      }
+    ]
+  },
+  {
+    "case_id": "4692",
+    "name": "【图片右键菜单】置于顶层",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 选中一张图片后，右键点击该图片\n2 出现右键菜单后点击置于顶层",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "当前图片被置于当前页面顶层"
+      }
+    ]
+  },
+  {
+    "case_id": "4691",
+    "name": "【图片右键菜单】下移一层",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 选中一张图片后，右键点击该图片\n2 出现右键菜单后点击下移一层",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "当前图片被下移一层"
+      }
+    ]
+  },
+  {
+    "case_id": "4690",
+    "name": "【图片右键菜单】上移一层",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 选中一张图片后，右键点击该图片\n2 出现右键菜单后点击上移一层",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "当前图片被上移一层"
+      }
+    ]
+  },
+  {
+    "case_id": "4689",
+    "name": "【图片右键菜单】删除",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 选中一张图片后，右键点击该图片\n2 出现右键菜单后点击删除",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "当前图片被删除"
+      }
+    ]
+  },
+  {
+    "case_id": "4688",
+    "name": "【图片右键菜单】粘贴",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 选中一张图片后，右键点击该图片\n2 出现右键菜单后点击粘贴",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "将当前剪切板内图片类粘贴当鼠标点击处"
+      }
+    ]
+  },
+  {
+    "case_id": "4687",
+    "name": "【图片右键菜单】剪切",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 选中一张图片后，右键点击该图片\n2 出现右键菜单后点击剪切",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "当前图片被剪切到剪切板内"
+      }
+    ]
+  },
+  {
+    "case_id": "4686",
+    "name": "【图片右键菜单】复制",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 选中一张图片后，右键点击该图片\n2 出现右键菜单后点击复制",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "当前图片被复制到剪切板内"
+      }
+    ]
+  },
+  {
+    "case_id": "4685",
+    "name": "【图片编辑模式】提取图片内文字",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入图片编辑模式后\n2 点击提取图片内文字",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "调起OCR识别窗口并将当前图片添加进去"
+      }
+    ]
+  },
+  {
+    "case_id": "4684",
+    "name": "【图片编辑模式】提取图片",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 进入图片编辑模式后",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "当前选中图片被保存到该路径下"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击提取图片按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 输入任意有效路径后点击保存",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4683",
+    "name": "【图片编辑模式】替换图片",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 进入图片编辑模式后",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "当前图片被替换成选中的图片"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击替换图片按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 输入有效图片文件路径后点击打开",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4681",
+    "name": "【图片编辑模式】垂直翻转",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入图片编辑模式后\n2 点击垂直翻转按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "图片被垂直翻转"
+      }
+    ]
+  },
+  {
+    "case_id": "4680",
+    "name": "【图片编辑模式】水平翻转",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入图片编辑模式后\n2 点击水平翻转按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "图片被水平翻转"
+      }
+    ]
+  },
+  {
+    "case_id": "4679",
+    "name": "【图片编辑模式】逆时针旋转90°",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入图片编辑模式后\n2 点击逆时针旋转90°按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "图片被逆时针旋转90°"
+      }
+    ]
+  },
+  {
+    "case_id": "4678",
+    "name": "【图片编辑模式】顺时针旋转90°",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入图片编辑模式后\n2 点击顺时针旋转90°按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "图片被顺时针旋转90°"
+      }
+    ]
+  },
+  {
+    "case_id": "4676",
+    "name": "【图片编辑模式】功能入口2",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件后，进入编辑内容模式",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "进入图片编辑模式，右边弹窗更改为编辑图片菜单"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 选中页面内任意一张图片",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4675",
+    "name": "【图片编辑模式】功能入口1",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件后，选中页面内一张图片",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "进入图片编辑模式"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击悬浮菜单上的“编辑图片”",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4674",
+    "name": "插入图片",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个PDF文件后，切换至编辑tab页下",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "图片被添加到当前页面内\n* 支持格式(jpg\\png\\bmp\\jpeg\\tif\\tiff)\n* 不支持超过20M图片"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击添加图片按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4673",
+    "name": "【水印编辑】删除水印(无水印文件)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4672",
+    "name": "【水印编辑】删除水印(带水印文件)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4671",
+    "name": "【水印编辑】更新水印(无水印文件)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4670",
+    "name": "【水印编辑】更新水印(带水印文件)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4669",
+    "name": "【水印编辑】删除自定义水印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4668",
+    "name": "【水印编辑】修改自定义水印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4667",
+    "name": "【水印编辑】添加自定义水印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "限制20个"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4666",
+    "name": "【水印编辑】推荐水印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": []
+  },
+  {
+    "case_id": "4665",
+    "name": "【水印编辑】快速添加水印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 展开水印下拉菜单后，选中任意水印模板点击添加水印按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "当前水印模板被添加到页面上"
+      }
+    ]
+  },
+  {
+    "case_id": "4664",
+    "name": "【水印编辑】水印模板",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 切换到编辑页签下，点击水印下拉菜单",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "展示当前所有的水印模板"
+      }
+    ]
+  },
+  {
+    "case_id": "4663",
+    "name": "【水印编辑】点击预览图",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击预览图",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "全屏展示当前预览图，按esc或点击关闭按钮退出"
+      }
+    ]
+  },
+  {
+    "case_id": "4662",
+    "name": "【水印编辑】预览界面",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击切换页面按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "1 预览图展示当前页面内容\n2 点击切换界面按钮，切换到对应页面上"
+      }
+    ]
+  },
+  {
+    "case_id": "4661",
+    "name": "【水印编辑】保存到自定义",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "截图操作: 勾选保存到自定义选项",
+        "action_type": "screenshot",
+        "parameters": {
+          "filename": "screenshot_1"
+        },
+        "expected_result": "添加后的水印保存到自定义模板上"
+      }
+    ]
+  },
+  {
+    "case_id": "4660",
+    "name": "【水印编辑】页面范围",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "四种方式互斥"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "输入文本: 1 勾选所有页面\n2 勾选奇数页面\n3 勾选偶数页面\n4 自定义输入",
+        "action_type": "type",
+        "parameters": {
+          "text": "test_text",
+          "timeout": 10
+        },
+        "expected_result": "1 勾选所有页面则水印在预览界面处于所有页面上\n2 勾选奇数页面则水印在预览界面处于奇数页面上\n3 勾选偶数页面则水印在预览界面处于偶数页面上\n4 自定义输入则根据规则在预览界面处于相对应的页面上"
+      }
+    ]
+  },
+  {
+    "case_id": "4659",
+    "name": "【水印编辑】位于页面之上、页面之下",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "两种方式互斥"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 点击勾选位于页面之上\n2 点击位于页面之下按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "1 勾选页面之上则水印位于页面最顶层\n2 勾选页面之下则水印位于页面最底层"
+      }
+    ]
+  },
+  {
+    "case_id": "4658",
+    "name": "【水印编辑】行间距、字间距",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: 勾选平铺",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 在下拉菜单内选择任意的数值",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "根据数值变动，预览界面上水印展示有相应的调整"
+      }
+    ]
+  },
+  {
+    "case_id": "4657",
+    "name": "【水印编辑】垂直、水平横移",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 手动输入横移量\n2 点击增减按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "根据调整的横移量，预览界面上水印会移动到对应的位置上"
+      }
+    ]
+  },
+  {
+    "case_id": "4656",
+    "name": "【水印编辑】相对页面比例",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "文本水印中与字号互斥2 (0%-1000%可输入范围)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 点击勾选相对页面比例框\n2 勾选后，可在输入框内修改百分比值",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "1 在预览界面上展示修改水印大小比例后的效果"
+      }
+    ]
+  },
+  {
+    "case_id": "4655",
+    "name": "【水印编辑】旋转角度",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "(-360°~360°可输入范围)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 点击旋转角度下拉框，选择需要的旋转角度(45°、0°、-45°)\n2 在输入框内输入需要的旋转角度",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "1 在预览界面上展示旋转后的水印效果\n2 如果手动输入角度值则下拉框文案展示为自定义"
+      }
+    ]
+  },
+  {
+    "case_id": "4654",
+    "name": "【水印编辑】排列方式",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "两种排列方式互斥"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 点击九宫格内任意位置\n2 点击平铺",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "1 点击九宫格则水印移动到文件界面对应的位置(上、下、左、右、左上、左下、右上、右下、中心)\n2 点击平铺则水印铺满整个文件界面"
+      }
+    ]
+  },
+  {
+    "case_id": "4653",
+    "name": "【水印编辑】加粗、倾斜、下划线(仅文本)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 输入文本水印内容后\n2 点击选定加粗、倾斜、下划线按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "1 选中加粗按钮则对当前水印文本进行加粗\n2 选中倾斜按钮则将当前水印文本倾斜\n3 选中下划线按钮则对当前水印文本添加下划线"
+      }
+    ]
+  },
+  {
+    "case_id": "4652",
+    "name": "【水印编辑】字体颜色(仅文本)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 输入文本水印内容后\n2 点击字号下拉菜单，选择需要的字体颜色属性",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "在预览界面上，展示修改后字体颜色属性后的水印文本"
+      }
+    ]
+  },
+  {
+    "case_id": "4651",
+    "name": "【水印编辑】字号(仅文本)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 输入文本水印内容后\n2 点击字号下拉菜单，选择需要的字号属性",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "在预览界面上，展示修改后字号属性后的水印文本"
+      }
+    ]
+  },
+  {
+    "case_id": "4650",
+    "name": "【水印编辑】字体属性(仅文本)",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "支持当前系统内已有的字体"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 输入文本水印内容后 \n2 点击字体下拉菜单，选择需要的字体属性",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "在预览界面上，展示修改后字体属性后的水印文本"
+      }
+    ]
+  },
+  {
+    "case_id": "4649",
+    "name": "【水印编辑】添加图片水印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)",
+      "支持jpg、png、bmp格式2 只能添加一个图片"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击预览按钮选择系统内图片",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击确定按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4648",
+    "name": "【水印编辑】添加文本水印",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "输入文本: 在文本输入框内，输入文字水印内容",
+        "action_type": "type",
+        "parameters": {
+          "text": "test_text",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 点击确定按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4647",
+    "name": "【水印编辑】功能入口逻辑校验",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开一个带水印文件",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "告知用户当前文档已存在水印，是在原基础上添加新的水印还是替换已有的水印"
+      }
+    ]
+  },
+  {
+    "case_id": "4646",
+    "name": "【水印编辑】功能入口2",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件后，点击阅读模式下右键菜单中的添加水印",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "打开添加水印界面"
+      }
+    ]
+  },
+  {
+    "case_id": "4645",
+    "name": "【水印编辑】功能入口1",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "打开PDF文件: 打开PDF文件后，切换到编辑页签下点击添加水印按钮",
+        "action_type": "open_file",
+        "parameters": {
+          "file_path": "sample.pdf",
+          "timeout": 30
+        },
+        "expected_result": "打开添加水印界面"
+      }
+    ]
+  },
+  {
+    "case_id": "4182",
+    "name": "【页面范围】全部页面",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入裁剪模式后\n2 点击页面范围按钮\n3 选中全部页面点击确定",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "以当前页面裁剪框大小，应用到全部页面上"
+      }
+    ]
+  },
+  {
+    "case_id": "4181",
+    "name": "【页面范围】默认值",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 1 进入裁剪模式后",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "默认裁剪当前阅读视图所在页面"
+      }
+    ]
+  },
+  {
+    "case_id": "4179",
+    "name": "【选区】智能选区",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入裁剪模式后\n2 点击智能选区",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "检测页面四周空白部分，形成裁剪框"
+      }
+    ]
+  },
+  {
+    "case_id": "4178",
+    "name": "【页面裁剪】裁剪页面",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /(#0)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/(#0)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入页面裁剪模式后\n2 点击完成按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "当前页面被裁剪"
+      }
+    ]
+  },
+  {
+    "case_id": "4176",
+    "name": "【插入文字】插入文字",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "执行操作: 进入编辑模式",
+        "action_type": "click",
+        "parameters": {
+          "element": "ui_element",
+          "timeout": 10
+        },
+        "expected_result": "页面内插入新的文本"
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 鼠标点击编辑tab下插入文字按钮",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      },
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 鼠标点击到页面上任意空白处时生成一个新的文本编辑框，在该编辑框内输入文本并保存",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": ""
+      }
+    ]
+  },
+  {
+    "case_id": "4170",
+    "name": "【文本框右键菜单】删除",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入编辑模式\n2 鼠标点击文本框，让焦点位于文本框内\n3 选中任意文本\n4 右键点击出现右键菜单，点击删除",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "选中文本被删除"
+      }
+    ]
+  },
+  {
+    "case_id": "4169",
+    "name": "【文本框右键菜单】粘贴",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入编辑模式\n2 鼠标点击文本框，让焦点位于文本框内\n3 若当前粘贴板内存在文本，右键点击出现右键菜单，点击粘贴",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "粘贴板内文本被粘贴到当前鼠标所在位置"
+      }
+    ]
+  },
+  {
+    "case_id": "4168",
+    "name": "【文本框右键菜单】剪切",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入编辑模式\n2 鼠标点击文本框，让焦点位于文本框内\n3 选中任意文本\n4 右键点击出现右键菜单，点击剪切",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "选中文本被剪切到粘贴板内"
+      }
+    ]
+  },
+  {
+    "case_id": "4167",
+    "name": "【文本框右键菜单】复制",
+    "description": "产品: 极光PDF阅读器(#20)\n模块: /核心用例(#353)\n前置条件: ",
+    "tags": [
+      "功能测试",
+      "/核心用例(#353)"
+    ],
+    "steps": [
+      {
+        "step_id": "step_1",
+        "description": "点击操作: 1 进入编辑模式\n2 鼠标点击文本框，让焦点位于文本框内\n3 选中任意文本\n4 右键点击出现右键菜单，点击复制",
+        "action_type": "click",
+        "parameters": {
+          "element": "button",
+          "timeout": 10
+        },
+        "expected_result": "选中文本被复制到粘贴板内"
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "total_cases": 10,
+    "passed_cases": 0,
+    "failed_cases": 10,
+    "pass_rate": 0.0,
+    "execution_time": "2025-08-13T21:25:02.348094"
+  },
+  "action_type_stats": {},
+  "detailed_results": [
+    {
+      "case_id": "8607",
+      "name": "【选取文字右键菜单】转换为可编辑文档",
+      "success": false,
+      "execution_time": 0,
+      "step_results": [],
+      "error_message": "'success'"
+    },
+    {
+      "case_id": "8606",
+      "name": "【选取文字右键菜单】复制-添加书签",
+      "success": false,
+      "execution_time": 0,
+      "step_results": [],
+      "error_message": "'success'"
+    },
+    {
+      "case_id": "8605",
+      "name": "【选取文字右键菜单】标注右键菜单删除线并标注",
+      "success": false,
+      "execution_time": 0,
+      "step_results": [],
+      "error_message": "'success'"
+    },
+    {
+      "case_id": "8604",
+      "name": "【选取文字右键菜单】标注右键菜单波浪线并标注",
+      "success": false,
+      "execution_time": 0,
+      "step_results": [],
+      "error_message": "'success'"
+    },
+    {
+      "case_id": "8603",
+      "name": "【选取文字右键菜单】标注右键菜单下划线并标注",
+      "success": false,
+      "execution_time": 0,
+      "step_results": [],
+      "error_message": "'success'"
+    },
+    {
+      "case_id": "8602",
+      "name": "【选取文字右键菜单】标注右键菜单下划线并标注",
+      "success": false,
+      "execution_time": 0,
+      "step_results": [],
+      "error_message": "'success'"
+    },
+    {
+      "case_id": "8601",
+      "name": "【选取文字右键菜单】标注右键菜单高亮并标注",
+      "success": false,
+      "execution_time": 0,
+      "step_results": [],
+      "error_message": "'success'"
+    },
+    {
+      "case_id": "8600",
+      "name": "【选取文字右键菜单】标注右键菜单高亮并标注",
+      "success": false,
+      "execution_time": 0,
+      "step_results": [],
+      "error_message": "'success'"
+    },
+    {
+      "case_id": "8599",
+      "name": "【选取文字右键菜单】编辑内容",
+      "success": false,
+      "execution_time": 0,
+      "step_results": [],
+      "error_message": "'success'"
+    },
+    {
+      "case_id": "8589",
+      "name": "【转换栏】PDF转换栏调起转为纯图",
+      "success": false,
+      "execution_time": 0,
+      "step_results": [],
+      "error_message": "'success'"
+    }
+  ]
+}

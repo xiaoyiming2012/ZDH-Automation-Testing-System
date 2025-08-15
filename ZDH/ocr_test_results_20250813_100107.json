@@ -1,0 +1,216 @@
+{
+  "timestamp": "20250813_100107",
+  "total_methods": 14,
+  "results": [
+    {
+      "method": "original",
+      "preprocess_time": 1.9073486328125e-06,
+      "ocr_time": 11.319995880126953,
+      "total_time": 11.319997787475586,
+      "total_texts": 101,
+      "target_found": true,
+      "best_match": "infojson",
+      "best_confidence": 0.9996812644897914,
+      "best_position": [
+        72,
+        530
+      ],
+      "match_score": 0.8
+    },
+    {
+      "method": "resize_2x",
+      "preprocess_time": 0.04051399230957031,
+      "ocr_time": 12.736869096755981,
+      "total_time": 12.777383089065552,
+      "total_texts": 102,
+      "target_found": true,
+      "best_match": "infojson",
+      "best_confidence": 0.9986365436555101,
+      "best_position": [
+        146,
+        1062
+      ],
+      "match_score": 0.8
+    },
+    {
+      "method": "resize_3x",
+      "preprocess_time": 0.07344841957092285,
+      "ocr_time": 13.149825811386108,
+      "total_time": 13.223274230957031,
+      "total_texts": 102,
+      "target_found": true,
+      "best_match": "infojson",
+      "best_confidence": 0.7121352977544642,
+      "best_position": [
+        219,
+        1592
+      ],
+      "match_score": 0.8
+    },
+    {
+      "method": "enhance_contrast",
+      "preprocess_time": 0.08776330947875977,
+      "ocr_time": 12.795879125595093,
+      "total_time": 12.883642435073853,
+      "total_texts": 102,
+      "target_found": true,
+      "best_match": "infojson",
+      "best_confidence": 0.6679679386702161,
+      "best_position": [
+        72,
+        530
+      ],
+      "match_score": 0.8
+    },
+    {
+      "method": "enhance_sharpness",
+      "preprocess_time": 0.1003577709197998,
+      "ocr_time": 12.770361185073853,
+      "total_time": 12.870718955993652,
+      "total_texts": 101,
+      "target_found": true,
+      "best_match": "infojson",
+      "best_confidence": 0.9996546240169922,
+      "best_position": [
+        72,
+        530
+      ],
+      "match_score": 0.8
+    },
+    {
+      "method": "denoise_median",
+      "preprocess_time": 0.010877847671508789,
+      "ocr_time": 13.330639362335205,
+      "total_time": 13.341517210006714,
+      "total_texts": 103,
+      "target_found": true,
+      "best_match": "infojson",
+      "best_confidence": 0.9993805725866515,
+      "best_position": [
+        72,
+        530
+      ],
+      "match_score": 0.8
+    },
+    {
+      "method": "denoise_gaussian",
+      "preprocess_time": 0.003873109817504883,
+      "ocr_time": 13.005822658538818,
+      "total_time": 13.009695768356323,
+      "total_texts": 108,
+      "target_found": true,
+      "best_match": "infojson",
+      "best_confidence": 0.99975448212263,
+      "best_position": [
+        72,
+        530
+      ],
+      "match_score": 0.8
+    },
+    {
+      "method": "adaptive_threshold",
+      "preprocess_time": 0.023936033248901367,
+      "ocr_time": 15.298900842666626,
+      "total_time": 15.322836875915527,
+      "total_texts": 89,
+      "target_found": false,
+      "best_match": "Mdowgpagnostiefagscs",
+      "best_confidence": 0.0928160845092207,
+      "best_position": [
+        880,
+        902
+      ],
+      "match_score": 0.125
+    },
+    {
+      "method": "otsu_threshold",
+      "preprocess_time": 0.010081768035888672,
+      "ocr_time": 12.93423843383789,
+      "total_time": 12.94432020187378,
+      "total_texts": 105,
+      "target_found": true,
+      "best_match": "infojson",
+      "best_confidence": 0.8646789944990475,
+      "best_position": [
+        73,
+        531
+      ],
+      "match_score": 0.8
+    },
+    {
+      "method": "morphology_close",
+      "preprocess_time": 0.010593175888061523,
+      "ocr_time": 13.4631667137146,
+      "total_time": 13.473759889602661,
+      "total_texts": 99,
+      "target_found": true,
+      "best_match": "infojson",
+      "best_confidence": 0.9995949769554157,
+      "best_position": [
+        72,
+        530
+      ],
+      "match_score": 0.8
+    },
+    {
+      "method": "morphology_open",
+      "preprocess_time": 0.003252744674682617,
+      "ocr_time": 15.374660015106201,
+      "total_time": 15.377912759780884,
+      "total_texts": 87,
+      "target_found": false,
+      "best_match": "t' Slnii:Ii",
+      "best_confidence": 0.02851460582529151,
+      "best_position": [
+        864,
+        1110
+      ],
+      "match_score": 0.1
+    },
+    {
+      "method": "edge_enhancement",
+      "preprocess_time": 0.012928247451782227,
+      "ocr_time": 13.428890466690063,
+      "total_time": 13.441818714141846,
+      "total_texts": 102,
+      "target_found": true,
+      "best_match": "infojson",
+      "best_confidence": 0.8439315835085249,
+      "best_position": [
+        72,
+        530
+      ],
+      "match_score": 0.8
+    },
+    {
+      "method": "histogram_equalization",
+      "preprocess_time": 0.00772857666015625,
+      "ocr_time": 13.547758340835571,
+      "total_time": 13.555486917495728,
+      "total_texts": 101,
+      "target_found": true,
+      "best_match": "Gfojson",
+      "best_confidence": 0.22406567541346634,
+      "best_position": [
+        73,
+        530
+      ],
+      "match_score": 0.8
+    },
+    {
+      "method": "combined_enhancement",
+      "preprocess_time": 0.835167646408081,
+      "ocr_time": 12.807053804397583,
+      "total_time": 13.642221450805664,
+      "total_texts": 104,
+      "target_found": true,
+      "best_match": "infojson",
+      "best_confidence": 0.9955640535335821,
+      "best_position": [
+        146,
+        1062
+      ],
+      "match_score": 0.8
+    }
+  ]
+}
